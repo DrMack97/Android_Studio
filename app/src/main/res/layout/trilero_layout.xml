@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivCube1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/cubilete" />
+
+        <ImageView
+            android:id="@+id/ivCube2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/cubilete" />
+
+        <ImageView
+            android:id="@+id/ivCube3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/cubilete" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="64dp"
+        android:text="START" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="YOU WIN!!!" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="Wins: 0   Losses: 0" />
+
+</LinearLayout>
